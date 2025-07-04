@@ -23,3 +23,6 @@
   --color-secondary:#06D001;
   --color-pvt:#E4F1FF;
 }
+.mo-scrollbar::-webkit-scrollbar{
+  display: none;
+}

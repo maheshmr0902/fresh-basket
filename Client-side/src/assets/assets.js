@@ -153,33 +153,34 @@ export const footerLinks = [
   {
     title: "Quick Links",
     links: [
-      { text: "Home", url: "#" },
-      { text: "Best Sellers", url: "#" },
-      { text: "Offers & Deals", url: "#" },
-      { text: "Contact Us", url: "#" },
-      { text: "FAQs", url: "#" },
+      { text: "Home", url: "/" },
+      { text: "Best Sellers", url: "/best-sellers" },
+      { text: "Offers & Deals", url: "/offers" },
+      { text: "Contact Us", url: "/contact-us" },
+      { text: "FAQs", url: "/faqs" },
     ],
   },
   {
     title: "Need help?",
     links: [
-      { text: "Delivery Information", url: "#" },
-      { text: "Return & Refund Policy", url: "#" },
-      { text: "Payment Methods", url: "#" },
-      { text: "Track your Order", url: "#" },
-      { text: "Contact Us", url: "#" },
+      { text: "Delivery Information", url: "/delivery-info" },
+      { text: "Return & Refund Policy", url: "/return-policy" },
+      { text: "Payment Methods", url: "/payment-methods" },
+      { text: "Track your Order", url: "/track-order" },
+      { text: "Email Us", url: "mailto:maheshroy@gmail.com" },
     ],
   },
   {
     title: "Follow Us",
     links: [
-      { text: "Instagram", url: "#" },
-      { text: "Twitter", url: "#" },
-      { text: "Facebook", url: "#" },
-      { text: "YouTube", url: "#" },
+      { text: "Instagram", url: "https://www.instagram.com/mahesh_roy_mr/" },
+      { text: "Twitter", url: "https://x.com/MaheshRy3" },
+      { text: "Facebook", url: "https://www.facebook.com/profile.php?id=100029951168206" },
+      { text: "YouTube", url: "https://youtube.com/@maheshroy" }, // Optional, remove or update if not available
     ],
   },
 ];
+
 
 export const features = [
   {
@@ -790,8 +791,8 @@ export const dummyAddress = [
   {
     _id: "67b5b9e54ea97f71bbc196a0",
     userId: "67b5880e4d09769c5ca61644",
-    firstName: "Great",
-    lastName: "Stack",
+    firstName: "Fresh",
+    lastName: "Basket",
     email: "user.greatstack@gmail.com",
     street: "Street 123",
     city: "Main City",
